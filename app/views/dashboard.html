@@ -1,0 +1,29 @@
+<div class='container '>
+    <div class='row col-xs-12 pull-right'>
+        <button type="button" class="btn btn-warning btn-lg" ng-click="fnLogout()">Log Out</button>
+    </div>
+    <div class='row'>
+        <div class='col-xs-12 col-md-3'>
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                </li>
+                <li>
+                    <a ui-sref="News">Go to News</a>
+                </li>
+                <li>
+                    <a ui-sref="Updates">Go to Updates</a>
+                </li>
+                <li>
+                    <a ui-sref="Tasks">Go to Tasks</a>
+                </li>
+                <li>
+                    <a ui-sref="Market">Go to Market</a>
+                </li>
+            </ul>
+        </div>
+        <div class='col-xs-12 col-md-8 view'>
+            <div ui-view=''>
+            </div>
+        </div>
+    </div>
+</div>

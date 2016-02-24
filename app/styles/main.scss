@@ -1,0 +1,86 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+$tempcolor:#efdac9;
+$bodycolor:#eedec5;
+$headercolor:#c78752;
+$textcolor:#ffffff;
+$footercolor:#9c8b7f;
+body {
+    background-color: $bodycolor;
+}
+
+.mainheader {
+    background-color: $headercolor;
+    height: 60px;
+    margin-bottom: 10px;
+    color: $textcolor;
+    img {
+        margin-left: 25px;
+        margin-top: 10px;
+        height: 40px;
+        width: 60px;
+    }
+    .glyphicon {
+        text-align: center;
+        right: 150px;
+        margin-top: 15px;
+    }
+    .wish {
+        margin-right: 50px;
+        margin-top: 15px;
+    }
+}
+
+.footer {
+    background-color: $footercolor;
+    height: 25px;
+    width: 100%;
+    bottom: 2px;
+    position: fixed;
+}
+
+.hometemp {
+    background-color: $tempcolor;
+    .glyphicon {
+        color: #8c0003;
+        font-size: 300%;
+    }
+}
+
+.logbtn {
+    margin-top: 50%;
+    margin-left: 55%;
+}
+
+.dashboardtab {
+    height: 300px;
+    background-color: #b4cadb;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color:#5791bd;
+    color:$textcolor;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+.view{
+height:75%;
+border:1px dashed $textcolor;
+}

@@ -1,0 +1,25 @@
+<div class='container form-holder'>
+    <div class='row'>
+        <div class='col-xs-3 col-md-5 '><img src="http://iconshow.me/media/images/ui/ios7-icons/png/256/contact-outline.png"></div>
+        <div class='col-xs-8 col-md-5'>
+            <form>
+                <div class="form-group">
+                    <label for="userName">UserName:</label>
+                    <input type="text" class="form-control" ng-model="data.username" placeholder="User Name">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" ng-model="data.password" placeholder="Password">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Check me out
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary" type="submit" ng-click="fnlogin()">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- oninput="fnNameValidation()"
+oninput="fnPasswordValidation()" -->
